@@ -102,6 +102,6 @@ const operation = () => {
     } else if (math === 'div') {
     return divideNumbers()
     } else {
-    ansTxt.innerText = 'You have to select an operation!'
+    ansTxt.innerText = 'There is an error!'
     }
 }
