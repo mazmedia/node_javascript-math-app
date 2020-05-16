@@ -1,0 +1,39 @@
+<!-- Github Author: Jivin Mazumder -- https://www.github.com/JivinM/ -->
+
+<!doctype html>
+<html>
+    <head>
+        <title>Math App</title>
+        <link rel="shortcut icon" href="/img/favicon.png">
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <h1>Math App</h1>
+
+        <hr>
+        
+        <p>Type in two numbers:</p>
+        <input type="text" id="num1" placeholder="Number One" class="special-input">
+        <input type="text" id="num2" placeholder="Number Two">
+        
+        <hr>
+        
+        <p>Now, pick your operation:</p>
+        
+        <select id="math__select">
+            <option value="selected" selected>Select</option>
+            <option value="add">+</option>
+            <option value="sub">-</option>
+            <option value="mul">x</option>
+            <option value="div">/</option>
+        </select>
+        
+        
+        <hr>
+        
+        <button onclick="operation()" class="special-btn">Fetch data!</button>
+        <p id="num"></p>
+
+        <script src="/js/math.js"></script>
+    </body>
+</html>
